@@ -13,7 +13,7 @@
 
 nav{
     background-color: #E8C07D;
-    padding: 20px;
+    padding: 15px;
 }
 
 .menu{
@@ -21,17 +21,16 @@ nav{
     justify-content: space-evenly;
 }
 
-nav ul li{
-    background-color:#EFD345;
-    list-style-type: none;
+.menuInd{
     border-radius: 10px solid black;
+    font-weight: bold;
+    list-style-type: none;
 }
-
 
 main{
     background-color: #CC704B;
     display: grid;
-    height: 100vh;
+    height: 600px;
     grid-template-areas: "img p"
                          "img p";
     grid-template-columns: repeat(2, 1fr);
@@ -43,7 +42,7 @@ main p{
     grid-area: p;
     width: 800px;
     font-size: 1.5rem;
-    padding: 20%;
+    padding: 15%;
 }
 
 .imgPrin{
@@ -51,6 +50,7 @@ main p{
     height: 50%;
     width: 50%;
     justify-self: center;
+    padding: 10%;
 }
 
 footer{
