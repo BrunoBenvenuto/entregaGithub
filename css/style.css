@@ -27,11 +27,38 @@ nav ul li{
     border-radius: 10px solid black;
 }
 
+
 main{
     background-color: #CC704B;
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "img p"
+                         "img p";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+main p{
+    text-align: center;
+    grid-area: p;
+    width: 800px;
+    font-size: 1.5rem;
+    padding: 20%;
+}
+
+.imgPrin{
+    grid-area: img;
+    height: 50%;
+    width: 50%;
+    justify-self: center;
 }
 
 footer{
     background-color: #614124;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
 }
 
