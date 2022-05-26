@@ -16,7 +16,7 @@ nav{
     padding: 15px;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-evenly;
 }
@@ -64,4 +64,23 @@ h2{
 }
 
 /* animaciones */
+.menuInd :hover{ 
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.aparecer{
+    animation-name: imgAparecer;
+    animation-duration: 5s;
+}
+
+@keyframes imgAparecer {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
 
