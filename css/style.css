@@ -64,9 +64,9 @@ h2{
 }
 
 /* animaciones */
-.menuInd :hover{ 
+.menuInd:hover{ 
     transform: scale(1.1);
-    transition: 2s;
+    transition: 1s;
 }
 
 .aparecer{
